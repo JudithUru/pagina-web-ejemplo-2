@@ -162,3 +162,10 @@ padding-left: 20%;
 p{
     text-align: center;
 }
+
+
+.video-centro {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    margin: 20px 0; /* Espaciado superior e inferior */
+}
