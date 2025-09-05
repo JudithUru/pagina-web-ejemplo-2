@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musicales</title>
+	<link rel="icon" href="https://play-lh.googleusercontent.com/asdyqFC2rPwraXdNaoTAMQeWSFVOfyr0aweH6ElvrygDcHAtByFGY5_WpjtRz5ANz48" type="image/x-icon">
+	
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+	<h1>Musicales que vale la pena ver</h1>
+	<div class="contenedor">
+		<header>
+			<nav>
+				<ul>
+					<li><a href="#inicio">Inicio</a></li>
+					<li><a href="#seccion1">Lista de musicales</a></li>
+					<li><a href="#seccion2">Formulario</a></li>
+					<li><a href="#acerca-de">Para saber más</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<section id="inicio">
+				<h2>Introducción</h2>
+				<p>Esta página hace un recuento de los musicales que son de mi preferencia.</p>
+			</section>
+
+			<section id="seccion1">
+				<h2>Lista de Musicales</h2>
+				<p>Algunos son animados o se presentan en Broadway</p>
+				<table>
+					<thead>
+						<tr>
+							<th>Broadway</th>
+							<th>Animados</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Hamilton</td>
+							<td>Kpop Demon Hunters</td>
+						</tr>
+						<tr>
+							<td>Wicked</td>
+							<td>Encanto</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+			<section id="seccion2">
+				<h2>Formulario</h2>
+				<p>Si te interesa este tipo de contenido escribe tus datos para enviarte información de cuando actualizamos.</p>
+				<form action="procesar.php" method="post">
+					<label for="nombre">Nombre:</label>
+					<input type="text" id="nombre" name="nombre" required>
+
+					<label for="email">Correo electrónico:</label>
+					<input type="email" id="email" name="email" required>
+
+					<label for="mensaje">Mensaje:</label>
+					<textarea id="mensaje" name="mensaje" rows="5" cols="30" required></textarea>
+
+					<button type="submit">Enviar</button>
+				</form>
+			</section>
+
+			<section id="acerca-de">
+				<div>
+				<h2>Acerca de Hamilton</h2>
+				<p>Este musical es uno de mis favoritos y fue escrito por Lin-Manuel Miranda, trabajó también en:</p>
+				<ul>
+					<li>Moana</li>
+					<li>Encanto</li>
+					<li>In the heights</li>
+				</ul>
+				</div>
+				<img src="https://tse2.mm.bing.net/th/id/OIP.NdFbsK7I15gc9_WNWeBJEQHaJQ?r=0&cb=thfc1&rs=1&pid=ImgDetMain&o=7&rm=3">
+			</section>
+		</main>
+	</div>
+    <footer>
+        <p>&copy; 2025 Judith Uruchima</p>
+    </footer>
+</body>
+</html>
